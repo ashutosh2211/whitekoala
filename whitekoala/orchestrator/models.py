@@ -1,5 +1,5 @@
 from django.db import models
-from djangotoolbox.fields import EmbeddedModelField
+#from djangotoolbox.fields import EmbeddedModelField
 
 class Shipment(models.Model):
     shipment_id =models.CharField(max_length=16)
