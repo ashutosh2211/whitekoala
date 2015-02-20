@@ -3,7 +3,7 @@ from django.db import models
 
 class Shipment(models.Model):
     shipment_id =models.CharField(max_length=16)
-    from_address = EmbeddedModelField('Address')
+    #from_address = EmbeddedModelField('Address')
 
 class Destinations(models.Model):
     destination_id =models.CharField(max_length=10)
